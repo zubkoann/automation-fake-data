@@ -10,4 +10,11 @@ public class Currency {
     public String getCurrency() {
         return currency;
     }
+
+    @Override
+    public String toString() {
+        return "Currency{" +
+                "currency='" + currency + '\'' +
+                '}';
+    }
 }

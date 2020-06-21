@@ -2,7 +2,6 @@ package generators;
 
 import api.Generator;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class CurrencyGenerator implements Generator{
@@ -14,5 +13,6 @@ public class CurrencyGenerator implements Generator{
         Currency currency = new Currency(i);
         return currency;
     }
+
 
 }
