@@ -4,6 +4,7 @@ public class App {
         System.out.println(fd.getCurrency());
         System.out.println(fd.getCard());
         System.out.println(fd.getColor());
+        System.out.println(fd.getEmail());
 
     }
 }
